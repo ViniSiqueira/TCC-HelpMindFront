@@ -1,0 +1,124 @@
+.container_questionario {
+  padding: 120px 20px 20px;
+}
+
+.header_quest {
+  position: absolute;
+  width: 100%;
+  height: 108px;
+  left: 0px;
+  top: 0px;
+  background: #58a5a4;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.title_quest {
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Dancing Script', cursive; 
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.form_quest-container {
+  width: 1490px;
+  height: 900px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--back-lines-in-white, #E6E6F0);
+  background: var(--shapes-01, #FFF);
+  position: relative; 
+}
+
+.button_quest {
+  font-size: 1.1rem;
+  background-color: #63ACBB;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 15px 30px;
+  transition: transform 0.2s;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.button_quest:hover {
+  transform: scale(1.05);
+}
+
+.questionary-text {
+  display: inline-block;
+  vertical-align: middle; 
+  margin-right: 20px; 
+  margin-left: 20px;
+}
+
+.numero {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  min-width: 20px; 
+  margin-left: 20px;
+}
+
+.img_usuario {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  left: 90px;
+  top: 24px;
+  border-radius: 50%;
+  background-size: cover; 
+  background-position: center; 
+}
+
+
+.lookup select {
+  min-width: 200px; 
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #5BC0BE;
+  border-radius: 5px;
+  background-color: #e1f5f5;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+  display: inline-block;
+  margin-left: 20px; 
+}
+
+.lookup select:hover {
+  background-color: #e1f5f5;
+}
+
+.lookup select:focus {
+  border-color: #5BC0BE;
+  transform: scale(1.05); 
+  transition: transform 0.05s ease; 
+}
+
+.avatar-image {
+  width: 85%;
+  height: 85%;
+  object-fit: cover;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #5BC0BE;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #d1e9e8;
+  border-radius: 5px;
+}
